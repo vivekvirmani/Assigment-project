@@ -14,7 +14,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = (username, password) => {
     // simple static check
-    if (username === "PsiBorg" && password === "Assigment") {
+    if (username === "PsiBorg" && password === "Assignment") {
       setIsLoggedIn(true);
       return { ok: true };
     }
